@@ -1,0 +1,52 @@
+nav {
+    background-color: #13141F;
+    padding: 16px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+}
+
+nav ul li {
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+nav h1 {
+    color: #6f737a;
+    font-size: 36px;
+}
+
+nav h1 span {
+    color: #D6FE7A;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+nav .buttons a {
+    color: #6f737a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 8px;
+}
+
+nav #login {
+    color: #fff;
+}
+
+nav #register {
+    color: #D6FE7A;
+}
