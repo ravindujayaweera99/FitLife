@@ -1,0 +1,16 @@
+{
+  "name": "fitlife",
+  "version": "1.0.0",
+  "description": "This is a Web Application Backend for the Fitlife Web App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "Ravindu Jayaweera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
